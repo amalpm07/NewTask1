@@ -1,0 +1,58 @@
+.container {
+    max-width: 800px;
+    margin: 0 auto; /* Center the container */
+    padding: 1rem;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 1rem; /* Space above the table */
+  }
+  
+  th, td {
+    text-align: left;
+    padding: 0.75rem;
+  }
+  
+  thead {
+    background-color: #f7fafc; /* Tailwind's gray-100 */
+  }
+  
+  tr:hover {
+    background-color: #edf2f7; /* Tailwind's gray-200 */
+  }
+  
+  td {
+    border: 1px solid #d1d5db; /* Tailwind's gray-300 */
+  }
+  
+  th {
+    border: 1px solid #d1d5db; /* Tailwind's gray-300 */
+  }
+  
+  button {
+    cursor: pointer;
+  }
+  
+  /* Additional styling for better visuals */
+  h1 {
+    margin-bottom: 1rem;
+  }
+  
+  .bg-red-500 {
+    background-color: #ef4444; /* Tailwind's red-500 */
+  }
+  
+  .bg-red-600:hover {
+    background-color: #dc2626; /* Tailwind's red-600 */
+  }
+  
+  .bg-blue-500 {
+    background-color: #3b82f6; /* Tailwind's blue-500 */
+  }
+  
+  .bg-blue-600:hover {
+    background-color: #2563eb; /* Tailwind's blue-600 */
+  }
+  
